@@ -3,6 +3,7 @@ package Testings;
 import PageObjects.*;
 import Setup.Setup;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;

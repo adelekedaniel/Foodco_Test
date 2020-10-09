@@ -2,7 +2,6 @@ package Setup;
 
 
 import PageObjects.HomePage;
-import PageObjects.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -32,13 +31,11 @@ public class Setup {
         homePage = new HomePage(driver);
         driver.findElement(Lagos).click();
 
-
     }
 
     //@AfterTest
-    //public void closeBrowser()
-    //{
-        //".close" would close the window but the ".quit" would exit the session
+    //public void closeBrowser() {
+        //quit the browser
         //driver.quit();
     //}
 
