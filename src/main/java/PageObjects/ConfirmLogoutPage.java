@@ -12,7 +12,8 @@ public class ConfirmLogoutPage {
     private By ConfirmLogout = By.xpath("//*[@id=\"content\"]/article/div/div/div[1]/a");
 
     //create a constructor
-    public ConfirmLogoutPage(WebDriver driver){
+    public ConfirmLogoutPage(WebDriver driver)
+    {
         this.driver=driver;
     }
 

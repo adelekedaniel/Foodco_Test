@@ -12,9 +12,10 @@ public class HomePage {
     //locate the element using find By
     private By Lagos = By.name("wh_flybox_button Lagos");
     
-    public void clickLagos()
+    public LoginPage clickLagos()
     {
         driver.findElement(Lagos).click();
+        return new LoginPage(driver);
     }
     //Create a constructor
     public HomePage(WebDriver driver)
